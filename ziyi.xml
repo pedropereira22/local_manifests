@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- NOTE: Do not forget to use clone-depth=1. We only need shallow copies since this is discarded immediately after the build -->
+
+  <!-- Device trees -->
+  <project name="pedropereira22/android_device_xiaomi_ziyi" path="device/xiaomi/ziyi" remote="github" clone-depth="1" />
+
+  <!-- Vendor -->
+  <project name="cupid-development/proprietary_vendor_xiaomi_ziyi" path="vendor/xiaomi/ziyi" remote="mainlining" revision="lineage-22.1" clone-depth="1" />
+</manifest>
